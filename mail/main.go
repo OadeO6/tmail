@@ -8,7 +8,7 @@ import (
   "fmt"
   "time"
   "strings"
-  "github.com/oadeo6/tmail/mypkg"
+  "github.com/oadeo6/tmail/mail/mypkg"
 )
 
 type connection struct {
