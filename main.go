@@ -8,7 +8,7 @@ import (
   "fmt"
   "time"
   "strings"
-  "mymail.local/mypkg"
+  "github.com/oadeo6/tmail/mypkg"
 )
 
 type connection struct {
@@ -213,7 +213,7 @@ func (c *connection) HandleSMTP() {
 func main() {
   fmt.Println("hello")
 
-  smtpPort := "25" // standard smtp port is 25
+  smtpPort := "2525" // standard smtp port is 25
   // smtp
   func() {
     addr := ":" + smtpPort
